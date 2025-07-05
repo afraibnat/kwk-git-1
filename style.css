@@ -1,0 +1,52 @@
+.hobby-container img {
+    width: 340px;
+    height: 440px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.hobby-slideshow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#crochet-image {
+    display: block;
+}
+
+#boba-image {
+    display: none;
+}
+
+#picnic-image {
+    display: none;
+}
+
+#read-image {
+    display: none;
+}
+
+.hobby-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hobby-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 5px;
+}
+
+/* .im ion-icon {
+    color: pink;
+} */
+
+.im {
+    margin: 20px;
+}

@@ -1,9 +1,55 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://cdn.creazilla.com/icons/7906044/emoji-u1f431-icon-size_512.png" type="image/png">
+    <title>Afra Ibnat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<body>
+    <p>Afra Ibnat</p>
+    <p>Nice to meet you! I am a rising sophomore studying Computer Science at the University of Texas at Dallas.
+       Some of my hobbies include reading, crocheting, playing the guitar, and spending time with friends and family!
+    </p>
+
+    <!-- turn to captioned images one day -->
+    <section class="hobby-slideshow">
+        <div class="hobby-container" id="crochet-image">
+            <img src="assets/crochet.jpg" alt ="crocheted dress">
+        </div>
+        <div class="hobby-container" id="boba-image">
+            <img src="assets/boba.JPG" alt ="trying cafe drinks">
+        </div>
+        <div class="hobby-container" id="picnic-image">
+            <img src="assets/picnic.JPG" alt ="picnic with friends">
+        </div>
+        <div class="hobby-container" id="read-image">
+            <img src="assets/read.jpg" alt ="current read">
+        </div>
+
+        <div class="hobby-display">
+            <div class="im" id="crochet" onclick="displayCrochet()"><ion-icon name="heart"></ion-icon></div>
+            <div class="im" id="boba" onclick="displayBoba()"><ion-icon name="heart-outline"></ion-icon></div>
+            <div class="im" id="picnic" onclick="displayPicnic()"><ion-icon name="heart-outline"></ion-icon></div>
+            <div class="im" id="read" onclick="displayRead()"><ion-icon name="heart-outline"></ion-icon></div>
+        </div>
+
+    </section>
+
+    <p>links to things im interested in</p>
+
+    <p> KWK and coding journey</p>
+
+    <p>3 fun facts about me</p>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
+
