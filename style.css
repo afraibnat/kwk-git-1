@@ -1,3 +1,6 @@
+html {
+    background-color: pink;
+}
 .hobby-container img {
     width: 340px;
     height: 440px;
@@ -29,11 +32,33 @@
     display: none;
 }
 
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.coding-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fun-facts-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .hobby-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .hobby-display {
@@ -43,10 +68,79 @@
     margin: 10px 5px;
 }
 
-/* .im ion-icon {
-    color: pink;
-} */
+.im ion-icon {
+    color: purple;
+}
 
 .im {
-    margin: 20px;
+    margin: 10px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+figcaption {
+    font-size: 18px;
+    color: #444;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.section-box, .section-box-text-align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)
+}
+
+.section-box-text-align {
+    text-align: center;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    /* margin-top: 20px; */
+}
+
+.links-container img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.links-container a:hover img {
+    transform: scale(1.1);
+}
+
+.link-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.link-box span {
+    font-size: 12px;
+    color: #444;
+    margin-top: 5px;
+}
+
+.credit-message {
+    text-align: center;
 }
