@@ -1,0 +1,160 @@
+html {
+    background-color: pink;
+}
+
+h1, h2 {
+    font-family: "Playfair Display", serif;
+    color: rgb(92, 3, 92);
+}
+
+p, ol, figcaption {
+  font-family: 'Georgia', serif;
+}
+
+.hobby-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.hobby-container img {
+    width: 340px;
+    height: 440px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.hobby-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 5px;
+}
+
+.hobby-slideshow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#crochet-image {
+    display: block;
+}
+
+#boba-image {
+    display: none;
+}
+
+#picnic-image {
+    display: none;
+}
+
+#read-image {
+    display: none;
+}
+
+#food-image {
+    display: none;
+}
+
+.im ion-icon {
+    color: purple;
+}
+
+.im {
+    margin: 10px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+figcaption {
+    font-size: 18px;
+    color: #444;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.coding-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fun-facts-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-box, .section-box-text-align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)
+}
+
+.section-box-text-align {
+    text-align: center;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.links-container img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.links-container a:hover img {
+    transform: scale(1.1);
+}
+
+.link-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.link-box span {
+    font-size: 14px;
+    color: #444;
+    margin-top: 5px;
+}
+
+.credit-message {
+    text-align: center;
+}
